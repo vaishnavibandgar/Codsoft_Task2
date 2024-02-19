@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio </title>
+  </head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Vaishnavi.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>    
+            <a href="#about">About</a>  
+            <a href="#skills">Skills</a>  
+            <a href="#portfolio">Portfolio</a>  
+            <a href="#contact">Contact</a>  
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Vaishnavi Bandgar</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p> I'm an enthusiastic software engineering 
+                with a passion for crafting seamless user experiences on the web.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a> 
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            
+        </div>
+
+        <div class="home-img">
+            <img src="images/v_1.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/v_2.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About  <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I'm a third-year student pursuing a degree in B.E(Computer Engineering), 
+                with a keen interest in software engineering and frontend development.
+                Despite still being on my academic journey, I've already delved deep into the world of coding and design, 
+               eager to make my mark in the tech industry.
+               Throughout my coursework, I've been fascinated by the intricate world of software development.
+                I've dived into languages like Java, Python, and JavaScript, 
+                mastering the fundamentals of programming and software design principles.</p>
+                <a href="images/resume.pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2><br>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>SEO Marketing <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Graphic Design <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/v_3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Real Time Video Streaming Web Portal.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/v_4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Real Time Video Streaming Web Portal.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter Full Name">
+                <input type="text" placeholder="Enter Email Addresss">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter Mobile No.">
+                <input type="text" placeholder="Enter Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by vaishu | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+   <script src="script.js"></script>
+</body>
+</html>
